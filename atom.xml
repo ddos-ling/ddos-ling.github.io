@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://home.stgzs.top</id>
-    <title>DDoS_LING 的博客</title>
-    <updated>2020-07-21T19:44:51.467Z</updated>
+    <title>DDoS_LING</title>
+    <updated>2020-07-21T19:47:49.797Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://home.stgzs.top"/>
     <link rel="self" href="https://home.stgzs.top/atom.xml"/>
     <subtitle>世界上没有绝对安全的系统</subtitle>
     <logo>https://home.stgzs.top/images/avatar.png</logo>
     <icon>https://home.stgzs.top/favicon.ico</icon>
-    <rights>All rights reserved 2020, DDoS_LING 的博客</rights>
+    <rights>All rights reserved 2020, DDoS_LING</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://home.stgzs.top/post/hello-gridea/</id>
-        <link href="https://home.stgzs.top/post/hello-gridea/">
+        <id>https://home.stgzs.top/hello-gridea/</id>
+        <link href="https://home.stgzs.top/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
