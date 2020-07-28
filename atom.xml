@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://home.stgzs.top</id>
+    <id>https://stgzs.top</id>
     <title>DDoS_LING</title>
-    <updated>2020-07-28T19:31:16.575Z</updated>
+    <updated>2020-07-28T19:32:43.381Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://home.stgzs.top"/>
-    <link rel="self" href="https://home.stgzs.top/atom.xml"/>
+    <link rel="alternate" href="https://stgzs.top"/>
+    <link rel="self" href="https://stgzs.top/atom.xml"/>
     <subtitle>世界上没有绝对安全的系统</subtitle>
-    <logo>https://home.stgzs.top/images/avatar.png</logo>
-    <icon>https://home.stgzs.top/favicon.ico</icon>
+    <logo>https://stgzs.top/images/avatar.png</logo>
+    <icon>https://stgzs.top/favicon.ico</icon>
     <rights>All rights reserved 2020, DDoS_LING</rights>
     <entry>
         <title type="html"><![CDATA[仕途工作室官方账号]]></title>
-        <id>https://home.stgzs.top/shi-tu-gong-zuo-shi-guan-fang-zhang-hao/</id>
-        <link href="https://home.stgzs.top/shi-tu-gong-zuo-shi-guan-fang-zhang-hao/">
+        <id>https://stgzs.top/shi-tu-gong-zuo-shi-guan-fang-zhang-hao/</id>
+        <link href="https://stgzs.top/shi-tu-gong-zuo-shi-guan-fang-zhang-hao/">
         </link>
         <updated>2020-07-28T18:45:57.000Z</updated>
         <summary type="html"><![CDATA[<p>以下账号为仕途工作室官方的账号，如果非以下账号联系您，请勿相信！<br>
@@ -43,8 +43,8 @@ stgzslst@163.com（请勿通过此邮箱联系我们）</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于我]]></title>
-        <id>https://home.stgzs.top/about/</id>
-        <link href="https://home.stgzs.top/about/">
+        <id>https://stgzs.top/about/</id>
+        <link href="https://stgzs.top/about/">
         </link>
         <updated>2020-07-28T16:58:02.000Z</updated>
         <content type="html"><![CDATA[<p>DDoS_LING 是 仕途工作室 的创始人——仕途，于2016年7月14日创建仕途工作室。在仕途工作室创立初，我们不断在研究视频的制作，在2016年7月21日 下午6:24，仕途工作室的第一条视频诞生，发布在了美拍。从创立初至今，我们制作并发布过100+条视频，收获了不少的粉丝。</p>
