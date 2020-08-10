@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://home.stgzs.top</id>
     <title>DDoS_LING</title>
-    <updated>2020-08-09T10:38:49.194Z</updated>
+    <updated>2020-08-10T11:59:42.793Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://home.stgzs.top"/>
     <link rel="self" href="https://home.stgzs.top/atom.xml"/>
@@ -11,9 +11,55 @@
     <icon>https://home.stgzs.top/favicon.ico</icon>
     <rights>All rights reserved 2020, DDoS_LING</rights>
     <entry>
+        <title type="html"><![CDATA[Minecraft Server 搭建教程]]></title>
+        <id>https://home.stgzs.top/post/TvgGPdkJW/</id>
+        <link href="https://home.stgzs.top/post/TvgGPdkJW/">
+        </link>
+        <updated>2020-08-10T10:21:47.000Z</updated>
+        <summary type="html"><![CDATA[<p>有很多小伙伴想自己搭建MC的服务器，今天我来给大家详细的讲解一下。<br>
+本文以1.16.1版本为例，其他版本搭建方法类似。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>有很多小伙伴想自己搭建MC的服务器，今天我来给大家详细的讲解一下。<br>
+本文以1.16.1版本为例，其他版本搭建方法类似。</p>
+<!-- more -->
+<p>一、准备工作<br>
+1.一台可以正常运行的Windows 7以上的电脑（最好是64 bit）<br>
+2.空闲内存在1GB以上（建议2GB以上）<br>
+3.已安装java运行环境</p>
+<p>二、下载Minecraft Server<br>
+需要下载Minecraft Server的核心，这里提供其中一种下载方法：MinecraftServer Download<br>
+网址：https://ddos_ling.gitee.io/url/1.html<br>
+优点：搭建在国内gitee上，下载速度快！<br>
+下载指引：<br>
+1.在主界面选择需要下载的版本，点击打开下载界面<br>
+<img src="https://s1.ax1x.com/2020/08/10/abfQGn.png"/><br>
+2.选择适合自己的核心，并点击下载（推荐使用Spigot核心）<br>
+备注：原版核心不可以加插件和mods，Paper、Spigot可以加插件<br>
+<img src="https://s1.ax1x.com/2020/08/10/abf0R1.png"/></p>
+<p>三、初始化服务器<br>
+1.将下载下来的核心放到一个空文件夹，并新建一个bat脚本，脚本内容如下：</p>
+<pre class=" language-python" contenteditable="false" data-mce-selected="1">java <span class="token operator">-</span>Xmx1024M <span class="token operator">-</span>Xms1024M <span class="token operator">-</span>jar minecraft_server<span class="token number">.1</span><span class="token punctuation">.</span><span class="token number">16.1</span><span class="token punctuation">.</span>jar nogui</pre>
+<p>参数：<br>
+-Xmx —— 最大内存堆，单位为G或M；<br>
+-Xms —— 为初始内存堆，单位为G或M；<br>
+-jar —— Minecraft Server核心，根据自己的命名修改。<br>
+提醒：最大值内存堆和初始内存堆根据需求设置。如果插件较多、地图较大的，可以适当加大最大内存堆和初始内存堆。<br>
+2.运行bat脚本，等待其自动关闭，然后修改eula.txt许可文件内的eula项为true：</p>
+<pre class=" language-python" contenteditable="false" data-mce-selected="1">eula<span class="token operator">=</span>true</pre>
+<p>3.再次运行bat脚本，等待地图初始化。<br>
+控制台中输出“ Done (2.607s)! For help, type &quot;help&quot; ”时，可以通过127.0.0.1:25565连接服务器，连接成功后，服务器搭建完成！</p>
+<p>四、配置Minecraft Server<br>
+在配置服务器前，建议先输入“stop”停止服务器再做修改。<br>
+server.properties文件是储存服务器所有设置的文件，详细的配置文档：<br>
+维基百科：https://minecraft-zh.gamepedia.com/Server.properties<br>
+维基百科bilibili镜像：https://wiki.biligame.com/mc/Server.properties<br>
+备注：请参照百科中的“Java版”，国内建议访问维基百科bilibili镜像。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[仕途工作室官方账号]]></title>
-        <id>https://home.stgzs.top/post/shi-tu-gong-zuo-shi-guan-fang-zhang-hao/</id>
-        <link href="https://home.stgzs.top/post/shi-tu-gong-zuo-shi-guan-fang-zhang-hao/">
+        <id>https://home.stgzs.top/post/zhang-hao/</id>
+        <link href="https://home.stgzs.top/post/zhang-hao/">
         </link>
         <updated>2020-07-28T18:45:57.000Z</updated>
         <summary type="html"><![CDATA[<p>以下账号为仕途工作室官方的账号，如果非以下账号联系您，请勿相信！<br>
