@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://home.stgzs.top</id>
     <title>DDoS_LING</title>
-    <updated>2020-08-10T12:01:51.323Z</updated>
+    <updated>2020-08-16T16:08:32.091Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://home.stgzs.top"/>
     <link rel="self" href="https://home.stgzs.top/atom.xml"/>
@@ -22,38 +22,39 @@
         <content type="html"><![CDATA[<p>有很多小伙伴想自己搭建MC的服务器，今天我来给大家详细的讲解一下。<br>
 本文以1.16.1版本为例，其他版本搭建方法类似。</p>
 <!-- more -->
-<p>一、准备工作<br>
-1.一台可以正常运行的Windows 7以上的电脑（最好是64 bit）<br>
-2.空闲内存在1GB以上（建议2GB以上）<br>
-3.已安装java运行环境</p>
-<p>二、下载Minecraft Server<br>
-需要下载Minecraft Server的核心，这里提供其中一种下载方法：MinecraftServer Download<br>
-网址：https://ddos_ling.gitee.io/url/1.html<br>
-优点：搭建在国内gitee上，下载速度快！<br>
-下载指引：<br>
-1.在主界面选择需要下载的版本，点击打开下载界面<br>
-<img src="https://s1.ax1x.com/2020/08/10/abfQGn.png"/><br>
-2.选择适合自己的核心，并点击下载（推荐使用Spigot核心）<br>
-备注：原版核心不可以加插件和mods，Paper、Spigot可以加插件<br>
-<img src="https://s1.ax1x.com/2020/08/10/abf0R1.png"/></p>
-<p>三、初始化服务器<br>
-1.将下载下来的核心放到一个空文件夹，并新建一个bat脚本，脚本内容如下：</p>
-<pre class=" language-python" contenteditable="false" data-mce-selected="1">java <span class="token operator">-</span>Xmx1024M <span class="token operator">-</span>Xms1024M <span class="token operator">-</span>jar minecraft_server<span class="token number">.1</span><span class="token punctuation">.</span><span class="token number">16.1</span><span class="token punctuation">.</span>jar nogui</pre>
-<p>参数：<br>
--Xmx —— 最大内存堆，单位为G或M；<br>
--Xms —— 为初始内存堆，单位为G或M；<br>
--jar —— Minecraft Server核心，根据自己的命名修改。<br>
-提醒：最大值内存堆和初始内存堆根据需求设置。如果插件较多、地图较大的，可以适当加大最大内存堆和初始内存堆。<br>
-2.运行bat脚本，等待其自动关闭，然后修改eula.txt许可文件内的eula项为true：</p>
-<pre class=" language-python" contenteditable="false" data-mce-selected="1">eula<span class="token operator">=</span>true</pre>
-<p>3.再次运行bat脚本，等待地图初始化。<br>
-控制台中输出“ Done (2.607s)! For help, type &quot;help&quot; ”时，可以通过127.0.0.1:25565连接服务器，连接成功后，服务器搭建完成！</p>
-<p>四、配置Minecraft Server<br>
-在配置服务器前，建议先输入“stop”停止服务器再做修改。<br>
-server.properties文件是储存服务器所有设置的文件，详细的配置文档：<br>
-维基百科：https://minecraft-zh.gamepedia.com/Server.properties<br>
-维基百科bilibili镜像：https://wiki.biligame.com/mc/Server.properties<br>
-备注：请参照百科中的“Java版”，国内建议访问维基百科bilibili镜像。</p>
+<h1 id="一-准备工作">一、准备工作</h1>
+<h2 id="1一台可以正常运行的windows-7以上的电脑最好是64-bit">1.一台可以正常运行的Windows 7以上的电脑（最好是64 bit）</h2>
+<h2 id="2空闲内存在1gb以上建议2gb以上">2.空闲内存在1GB以上（建议2GB以上）</h2>
+<h2 id="3已安装java运行环境">3.已安装java运行环境</h2>
+<h1 id="二-下载minecraft-server">二、下载Minecraft Server</h1>
+<h2 id="需要下载minecraft-server的核心这里提供其中一种下载方法minecraftserver-download">需要下载Minecraft Server的核心，这里提供其中一种下载方法：MinecraftServer Download</h2>
+<h2 id="网址httpsddos_linggiteeiourl1html">网址：https://ddos_ling.gitee.io/url/1.html</h2>
+<h2 id="优点搭建在国内gitee上下载速度快">优点：搭建在国内gitee上，下载速度快！</h2>
+<h3 id="下载指引">下载指引：</h3>
+<h3 id="1在主界面选择需要下载的版本点击打开下载界面">1.在主界面选择需要下载的版本，点击打开下载界面</h3>
+<figure data-type="image" tabindex="1"><img src="https://s1.ax1x.com/2020/08/10/abfQGn.png" alt="Image" loading="lazy"></figure>
+<h3 id="2选择适合自己的核心并点击下载推荐使用spigot核心">2.选择适合自己的核心，并点击下载（推荐使用Spigot核心）</h3>
+<p>备注：原版核心不可以加插件和mods，Paper、Spigot可以加插件<br>
+<img src="https://s1.ax1x.com/2020/08/10/abf0R1.png" alt="Image" loading="lazy"></p>
+<h1 id="三-初始化服务器">三、初始化服务器</h1>
+<h2 id="1将下载下来的核心放到一个空文件夹并新建一个bat脚本脚本内容如下">1.将下载下来的核心放到一个空文件夹，并新建一个bat脚本，脚本内容如下：</h2>
+<pre><code>java -Xmx1024M -Xms1024M -jar 1.16.1server.jar nogui
+</code></pre>
+<h3 id="参数">参数：</h3>
+<h4 id="-xmx-最大内存堆单位为g或m">-Xmx —— 最大内存堆，单位为G或M；</h4>
+<h4 id="-xms-为初始内存堆单位为g或m">-Xms —— 为初始内存堆，单位为G或M；</h4>
+<h4 id="-jar-minecraft-server核心根据自己的命名修改">-jar —— Minecraft Server核心，根据自己的命名修改。</h4>
+<p>提醒：最大值内存堆和初始内存堆根据需求设置。如果插件较多、地图较大的，可以适当加大最大内存堆和初始内存堆。</p>
+<h2 id="2运行bat脚本等待其自动关闭然后修改eulatxt许可文件内的eula项为true">2.运行bat脚本，等待其自动关闭，然后修改eula.txt许可文件内的eula项为true：</h2>
+<pre><code>eula=true
+</code></pre>
+<h2 id="3再次运行bat脚本等待地图初始化">3.再次运行bat脚本，等待地图初始化。</h2>
+<h3 id="控制台中输出-done-2607s-for-help-type-help-时可以通过12700125565连接服务器连接成功后服务器搭建完成">控制台中输出 Done (2.607s)! For help, type &quot;help&quot; 时，可以通过127.0.0.1:25565连接服务器，连接成功后，服务器搭建完成！</h3>
+<h1 id="四-配置minecraft-server">四、配置Minecraft Server</h1>
+<h2 id="在配置服务器前建议先输入stop停止服务器再做修改">在配置服务器前，建议先输入“stop”停止服务器再做修改。</h2>
+<h2 id="serverproperties文件是储存服务器所有设置的文件详细的配置文档">server.properties文件是储存服务器所有设置的文件，详细的配置文档：</h2>
+<h2 id="维基百科"><a href="https://minecraft-zh.gamepedia.com/Server.properties">维基百科</a>   <a href="https://wiki.biligame.com/mc/Server.properties">维基百科bilibili镜像</a></h2>
+<p>备注：请参照百科中的“Java版”，国内建议访问维基百科bilibili镜像。</p>
 ]]></content>
     </entry>
     <entry>
@@ -62,29 +63,30 @@ server.properties文件是储存服务器所有设置的文件，详细的配置
         <link href="https://home.stgzs.top/post/zhang-hao/">
         </link>
         <updated>2020-07-28T18:45:57.000Z</updated>
-        <summary type="html"><![CDATA[<p>以下账号为仕途工作室官方的账号，如果非以下账号联系您，请勿相信！<br>
-如果有冒充仕途工作室内部人员的，欢迎发送到邮箱stgzs.zy@qq.com，最新的账号信息会更新到本文章，如果对某些账号有疑惑，也可以通过发送到邮箱stgzs.zy@qq.com进行咨询。</p>
+        <summary type="html"><![CDATA[<h2 id="以下账号为仕途工作室官方的账号如果非以下账号联系您请勿相信">以下账号为仕途工作室官方的账号，如果非以下账号联系您，请勿相信！</h2>
+<h2 id="如果有冒充仕途工作室内部人员的欢迎发送到邮箱stgzszyqqcom最新的账号信息会更新到本文章如果对某些账号有疑惑也可以通过发送到邮箱stgzszyqqcom进行咨询">如果有冒充仕途工作室内部人员的，欢迎发送到邮箱stgzs.zy@qq.com，最新的账号信息会更新到本文章，如果对某些账号有疑惑，也可以通过发送到邮箱stgzs.zy@qq.com进行咨询。</h2>
 ]]></summary>
-        <content type="html"><![CDATA[<p>以下账号为仕途工作室官方的账号，如果非以下账号联系您，请勿相信！<br>
-如果有冒充仕途工作室内部人员的，欢迎发送到邮箱stgzs.zy@qq.com，最新的账号信息会更新到本文章，如果对某些账号有疑惑，也可以通过发送到邮箱stgzs.zy@qq.com进行咨询。</p>
+        <content type="html"><![CDATA[<h2 id="以下账号为仕途工作室官方的账号如果非以下账号联系您请勿相信">以下账号为仕途工作室官方的账号，如果非以下账号联系您，请勿相信！</h2>
+<h2 id="如果有冒充仕途工作室内部人员的欢迎发送到邮箱stgzszyqqcom最新的账号信息会更新到本文章如果对某些账号有疑惑也可以通过发送到邮箱stgzszyqqcom进行咨询">如果有冒充仕途工作室内部人员的，欢迎发送到邮箱stgzs.zy@qq.com，最新的账号信息会更新到本文章，如果对某些账号有疑惑，也可以通过发送到邮箱stgzs.zy@qq.com进行咨询。</h2>
 <!-- more -->
-<p>邮箱：<br>
-stgzs.zy@qq.com   官方邮箱<br>
+<h1 id=""></h1>
+<h3 id="邮箱">邮箱：</h3>
+<p>stgzs.zy@qq.com   官方邮箱<br>
 stgzs.kf@qq.com   官方客服邮箱<br>
 officialcareerstudi@foxmail.com   注册验证、官方客服邮箱<br>
 1928668616@qq.com   创始人邮箱<br>
 stgzs@stgzs.top   创始人邮箱</p>
-<p>抖音：<br>
-抖音号：ddod_ling<br>
+<h3 id="抖音">抖音：</h3>
+<p>抖音号：ddod_ling<br>
 抖音昵称：DDoS_LIGN（仕途工作室 仕途）</p>
-<p>美拍：<br>
-美拍昵称：仕途工作室<br>
+<h3 id="美拍">美拍：</h3>
+<p>美拍昵称：仕途工作室<br>
 美拍主页：https://www.meipai.com/user/1041280212</p>
-<p>哔哩哔哩：<br>
-哔哩哔哩昵称：仕途工作室<br>
+<h3 id="哔哩哔哩">哔哩哔哩：</h3>
+<p>哔哩哔哩昵称：仕途工作室<br>
 哔哩哔哩主页：https://space.bilibili.com/508215923</p>
-<p>网易我的世界：<br>
-stgzslst@163.com（请勿通过此邮箱联系我们）</p>
+<h3 id="网易我的世界">网易我的世界：</h3>
+<p>stgzslst@163.com（请勿通过此邮箱联系我们）</p>
 ]]></content>
     </entry>
     <entry>
